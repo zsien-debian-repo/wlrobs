@@ -1,0 +1,3 @@
+version=4
+https://hg.sr.ht/~scoopta/wlrobs/tags \
+    /~scoopta/wlrobs/archive/v(\d[\d\.]*).tar.gz debian uupdate

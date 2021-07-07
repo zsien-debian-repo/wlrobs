@@ -1,0 +1,25 @@
+Source: wlrobs
+Section: video
+Priority: optional
+Maintainer: zsien <i@zsien.cn>
+Build-Depends:
+ debhelper-compat (= 13),
+ libobs-dev,
+ libwlroots-dev,
+ meson,
+ pkg-config,
+Standards-Version: 4.5.1
+Homepage: https://hg.sr.ht/~scoopta/wlrobs
+Vcs-Browser: https://github.com/zsien-debian-repo/obs-plugin-wlrobs
+Vcs-Git: https://github.com/zsien-debian-repo/obs-plugin-wlrobs.git
+Rules-Requires-Root: no
+
+Package: obs-plugin-wlrobs
+Architecture: any
+Depends:
+ obs-studio,
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: obs-studio plugin that allows to screen capture on wayland compositors
+ wlrobs is an obs-studio plugin that allows you to screen capture
+ on wlroots based wayland compositors
