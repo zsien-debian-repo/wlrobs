@@ -1,0 +1,6 @@
+^\.cproject$
+^\.project$
+^\.settings$
+^\.hgrepos$
+^build$
+^Debug$

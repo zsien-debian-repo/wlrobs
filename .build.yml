@@ -1,0 +1,15 @@
+image: debian/sid
+packages:
+ - build-essential
+ - libwayland-dev
+ - libobs-dev
+ - libdrm-dev
+ - libegl-dev
+ - pkg-config
+ - meson
+
+tasks:
+ - build: |
+    cd wlrobs
+    meson build
+    ninja -C build

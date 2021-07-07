@@ -1,0 +1,2 @@
+option('use_scpy', type : 'boolean', value : true, description : 'If the screen copy backend should be enabled')
+option('use_dmabuf', type : 'boolean', value : true, description : 'If the dmabuf backend should be enabled')
